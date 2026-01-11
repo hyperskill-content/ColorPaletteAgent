@@ -1,0 +1,88 @@
+{
+  "source_image": "images/red-car.jpg",
+  "timestamp": "2026-01-09T18:08:48.596783",
+  "agent": "advanced-v3",
+  "method": "GPT-4o + Qwen-VL (Spatial Sampling)",
+  "n_colors": 5,
+  "image_size": [
+    682,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        96,
+        116,
+        118
+      ],
+      "hex": "#607476",
+      "percentage": 20.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "the vibrant red body of the classic car"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        96,
+        116,
+        118
+      ],
+      "hex": "#607476",
+      "percentage": 20.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "the bright chrome trim around the headlights"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        6,
+        38,
+        23
+      ],
+      "hex": "#062617",
+      "percentage": 20.0,
+      "coordinates": [
+        195,
+        267
+      ],
+      "description": "the deep green leaves of the trees in the background"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        96,
+        116,
+        118
+      ],
+      "hex": "#607476",
+      "percentage": 20.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "the light gray pavement of the road"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        96,
+        116,
+        118
+      ],
+      "hex": "#607476",
+      "percentage": 20.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "the dull black tires on the car"
+    }
+  ]
+}

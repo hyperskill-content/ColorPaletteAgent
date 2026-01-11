@@ -1,0 +1,15 @@
+{
+  "source_image": "images\\car-flowers.jpg",
+  "timestamp": "2026-01-09T17:36:08.178218",
+  "agent": "classic-ml",
+  "method": "K-Means Clustering",
+  "n_colors": 5,
+  "image_size": [
+    768,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        

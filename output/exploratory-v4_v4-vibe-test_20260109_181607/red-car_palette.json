@@ -1,0 +1,88 @@
+{
+  "source_image": "images/red-car.jpg",
+  "timestamp": "2026-01-09T18:16:07.617570",
+  "agent": "exploratory-v4",
+  "method": "V4: GPT-4o + Qwen-VL + 60x60 KMeans + Vibe Pick",
+  "n_colors": 5,
+  "image_size": [
+    682,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        206,
+        14,
+        22
+      ],
+      "hex": "#CE0E16",
+      "percentage": 20.0,
+      "coordinates": [
+        326,
+        555
+      ],
+      "description": "Vibrant red body of the vintage car reflecting sunlight."
+    },
+    {
+      "index": 2,
+      "rgb": [
+        25,
+        57,
+        36
+      ],
+      "hex": "#193924",
+      "percentage": 20.0,
+      "coordinates": [
+        397,
+        177
+      ],
+      "description": "Dark green foliage densely covering the tall trees in the background."
+    },
+    {
+      "index": 3,
+      "rgb": [
+        12,
+        45,
+        47
+      ],
+      "hex": "#0C2D2F",
+      "percentage": 20.0,
+      "coordinates": [
+        340,
+        949
+      ],
+      "description": "Muted grey asphalt road leading into a shadowy tunnel."
+    },
+    {
+      "index": 4,
+      "rgb": [
+        186,
+        193,
+        189
+      ],
+      "hex": "#BAC1BD",
+      "percentage": 20.0,
+      "coordinates": [
+        482,
+        631
+      ],
+      "description": "Silver chrome accents gleaming on the car's front bumper."
+    },
+    {
+      "index": 5,
+      "rgb": [
+        160,
+        177,
+        177
+      ],
+      "hex": "#A0B1B1",
+      "percentage": 20.0,
+      "coordinates": [
+        385,
+        660
+      ],
+      "description": "Understated pale blue rectangle on the number plate."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+---
+alwaysApply: true
+---
+# ColorPaletteAgent Project Rules
+
+## Project Architecture
+- **Modular Pipeline**: Use an Abstract Base Class `BaseColorPaletteAgent` in `agent.py`. Every new approach must be a separate subclass (e.g., `ExploratoryColorPaletteAgent`).
+- **Separation of Concerns**: Keep AI logic in `agent.py` and visualization/CLI logic in `main.py`.
+- **Factory Pattern**: Use a `get_agent(version: str)` function to instantiate the correct agent version.
+
+## Tooling & Package Management
+- **Use `uv`**: Use `uv` for all package management, environment handling, and running scripts (e.g., `uv pip install`, `uv run`).
+- **Use .env** to store API keys
+
+## Experiments iteration
+- **Run tests on all the images available in the images/ folder**
+- **Save the generated palette visualizations after each run**: make sure the the folder names are different (depending on agent in use); add opportunity to add '--tag' to each experiment, so that it will be displayed in folder name for storing output
+
+## Image & Coordinate Standards
+- **Standardized Sizing**: The ONLY image modification allowed is resizing the larger side to **1024px** (maintaining aspect ratio) before processing or visualizing if it was bigger than 1024px originally.
+- **Pixel-First Coordinates**: Do NOT use normalized 0-1 or 0-1000 coordinates in internal code logic. All coordinates should represent **Actual Pixels** of the resized 1024px image.
+- **Top-Left Origin**: Always use [0, 0] as the top-left corner.
+- **Native Formats**: When using Qwen-VL, prefer native `point_2d` or `bbox_2d` response formats to minimize spatial errors.
+
+## AI Grounding Rules
+- **No Hex Hallucinations**: Advanced agents (V3+) are strictly forbidden from "inventing" Hex codes. They must either select from mathematically sampled pixels or suggest new coordinates to try.
+
+## Visualization Requirements
+- **Numbered Context**: Always number sampling points (1-5) on the image.
+- **Descriptive Footer**: Include a legend at the bottom of the image matching numbers to descriptions and pixel coordinates.
+- **Metadata**: Every run must save a matching `.json` file containing all raw data (descriptions, points, colors).
+
+## Frontend Requirements (Next Stage)
+- **Tech Stack**: Next.js / TypeScript / Tailwind CSS.
+- **Design Language**: Minimalistic, high-contrast, "Apple-like" aesthetic.
+- **Features**: 
+  - Drag-and-drop image upload.
+  - Image URL input field.
+  - Real-time visualization of the 5 extracted colors as large, clickable cards (auto-copy Hex).
+  - Overlay numbers on the uploaded image matching the palette cards.

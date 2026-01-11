@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\winter-1.jpg",
+  "timestamp": "2026-01-09T17:36:35.779103",
+  "agent": "classic-ml",
+  "method": "K-Means Clustering",
+  "n_colors": 5,
+  "image_size": [
+    800,
+    1000
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        14,
+        82,
+        110
+      ],
+      "hex": "#0e526e",
+      "percentage": 42.572125,
+      "coordinates": [
+        0,
+        0
+      ],
+      "description": "Color 1 (42.6%)"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        37,
+        124,
+        147
+      ],
+      "hex": "#257c93",
+      "percentage": 19.460125,
+      "coordinates": [
+        93,
+        0
+      ],
+      "description": "Color 2 (19.5%)"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        104,
+        177,
+        194
+      ],
+      "hex": "#68b1c2",
+      "percentage": 18.144875,
+      "coordinates": [
+        477,
+        31
+      ],
+      "description": "Color 3 (18.1%)"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        184,
+        104,
+        93
+      ],
+      "hex": "#b8685d",
+      "percentage": 13.096,
+      "coordinates": [
+        550,
+        119
+      ],
+      "description": "Color 4 (13.1%)"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        13,
+        35,
+        52
+      ],
+      "hex": "#0d2334",
+      "percentage": 6.726875000000001,
+      "coordinates": [
+        23,
+        0
+      ],
+      "description": "Color 5 (6.7%)"
+    }
+  ]
+}

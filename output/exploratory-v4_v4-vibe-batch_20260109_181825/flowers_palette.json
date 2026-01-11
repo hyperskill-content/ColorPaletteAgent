@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\flowers.jpg",
+  "timestamp": "2026-01-09T18:18:25.664499",
+  "agent": "exploratory-v4",
+  "method": "V4: GPT-4o + Qwen-VL + 60x60 KMeans + Vibe Pick",
+  "n_colors": 5,
+  "image_size": [
+    768,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        234,
+        136,
+        119
+      ],
+      "hex": "#EA8877",
+      "percentage": 20.0,
+      "coordinates": [
+        370,
+        521
+      ],
+      "description": "Bright orange spherical flowers with intricate petal patterns."
+    },
+    {
+      "index": 2,
+      "rgb": [
+        186,
+        206,
+        242
+      ],
+      "hex": "#BACEF2",
+      "percentage": 20.0,
+      "coordinates": [
+        506,
+        406
+      ],
+      "description": "Soft blue hydrangea-like blossoms adding a gentle contrast."
+    },
+    {
+      "index": 3,
+      "rgb": [
+        160,
+        167,
+        121
+      ],
+      "hex": "#A0A779",
+      "percentage": 20.0,
+      "coordinates": [
+        236,
+        273
+      ],
+      "description": "Pale green buds delicately interspersed among the blooms."
+    },
+    {
+      "index": 4,
+      "rgb": [
+        110,
+        108,
+        103
+      ],
+      "hex": "#6E6C67",
+      "percentage": 20.0,
+      "coordinates": [
+        100,
+        150
+      ],
+      "description": "Dark charcoal backdrop, creating a stark contrast to the vibrant bouquet."
+    },
+    {
+      "index": 5,
+      "rgb": [
+        230,
+        224,
+        220
+      ],
+      "hex": "#E6E0DC",
+      "percentage": 20.0,
+      "coordinates": [
+        245,
+        545
+      ],
+      "description": "Pure white paper wrapping, slightly translucent and gently crinkled."
+    }
+  ]
+}

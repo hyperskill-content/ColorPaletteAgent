@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\car-flowers.jpg",
+  "timestamp": "2026-01-09T17:36:32.655532",
+  "agent": "classic-ml",
+  "method": "K-Means Clustering",
+  "n_colors": 5,
+  "image_size": [
+    768,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        33,
+        30,
+        24
+      ],
+      "hex": "#211e18",
+      "percentage": 46.34552001953125,
+      "coordinates": [
+        20,
+        0
+      ],
+      "description": "Color 1 (46.3%)"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        86,
+        83,
+        64
+      ],
+      "hex": "#565340",
+      "percentage": 22.108840942382812,
+      "coordinates": [
+        6,
+        0
+      ],
+      "description": "Color 2 (22.1%)"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        100,
+        120,
+        140
+      ],
+      "hex": "#64788c",
+      "percentage": 13.133112589518229,
+      "coordinates": [
+        108,
+        0
+      ],
+      "description": "Color 3 (13.1%)"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        157,
+        144,
+        97
+      ],
+      "hex": "#9d9061",
+      "percentage": 10.641860961914062,
+      "coordinates": [
+        5,
+        0
+      ],
+      "description": "Color 4 (10.6%)"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        198,
+        194,
+        164
+      ],
+      "hex": "#c6c2a4",
+      "percentage": 7.7706654866536455,
+      "coordinates": [
+        0,
+        0
+      ],
+      "description": "Color 5 (7.8%)"
+    }
+  ]
+}

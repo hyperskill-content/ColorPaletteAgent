@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\car-flowers.jpg",
+  "timestamp": "2026-01-09T18:18:09.171334",
+  "agent": "exploratory-v4",
+  "method": "V4: GPT-4o + Qwen-VL + 60x60 KMeans + Vibe Pick",
+  "n_colors": 5,
+  "image_size": [
+    768,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        70,
+        73,
+        49
+      ],
+      "hex": "#464931",
+      "percentage": 20.0,
+      "coordinates": [
+        330,
+        160
+      ],
+      "description": "Glossy olive green car trunk reflecting light and leafy shadows."
+    },
+    {
+      "index": 2,
+      "rgb": [
+        135,
+        54,
+        49
+      ],
+      "hex": "#873631",
+      "percentage": 20.0,
+      "coordinates": [
+        350,
+        419
+      ],
+      "description": "Rich burgundy calla lilies with velvety petals atop the car."
+    },
+    {
+      "index": 3,
+      "rgb": [
+        232,
+        206,
+        122
+      ],
+      "hex": "#E8CE7A",
+      "percentage": 20.0,
+      "coordinates": [
+        190,
+        370
+      ],
+      "description": "Pale golden leaves scattered across the surface, creating a rustic feel."
+    },
+    {
+      "index": 4,
+      "rgb": [
+        229,
+        191,
+        187
+      ],
+      "hex": "#E5BFBB",
+      "percentage": 20.0,
+      "coordinates": [
+        453,
+        356
+      ],
+      "description": "Soft pink ribbon intertwined with the bouquet, adding elegance."
+    },
+    {
+      "index": 5,
+      "rgb": [
+        185,
+        219,
+        242
+      ],
+      "hex": "#B9DBF2",
+      "percentage": 20.0,
+      "coordinates": [
+        173,
+        645
+      ],
+      "description": "Metallic chrome car trim with a polished, reflective sheen."
+    }
+  ]
+}

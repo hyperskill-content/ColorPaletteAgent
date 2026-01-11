@@ -1,0 +1,88 @@
+{
+  "source_image": "images/red-car.jpg",
+  "timestamp": "2026-01-09T17:48:17.451399",
+  "agent": "simple-ai",
+  "method": "GPT-4o Vision Analysis",
+  "n_colors": 5,
+  "image_size": [
+    682,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        47,
+        79,
+        47
+      ],
+      "hex": "#2F4F2F",
+      "percentage": 45.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "forest green"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "hex": "#FF0000",
+      "percentage": 20.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "car red"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        75,
+        75,
+        75
+      ],
+      "hex": "#4B4B4B",
+      "percentage": 15.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "road gray"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        169,
+        169,
+        169
+      ],
+      "hex": "#A9A9A9",
+      "percentage": 10.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "light gray"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "hex": "#000000",
+      "percentage": 10.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "black details"
+    }
+  ]
+}

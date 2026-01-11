@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\flowers.jpg",
+  "timestamp": "2026-01-09T17:36:33.591904",
+  "agent": "classic-ml",
+  "method": "K-Means Clustering",
+  "n_colors": 5,
+  "image_size": [
+    768,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        81,
+        80,
+        76
+      ],
+      "hex": "#51504c",
+      "percentage": 41.94183349609375,
+      "coordinates": [
+        415,
+        0
+      ],
+      "description": "Color 1 (41.9%)"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        118,
+        120,
+        121
+      ],
+      "hex": "#767879",
+      "percentage": 24.51171875,
+      "coordinates": [
+        0,
+        0
+      ],
+      "description": "Color 2 (24.5%)"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        186,
+        192,
+        195
+      ],
+      "hex": "#bac0c3",
+      "percentage": 16.77525838216146,
+      "coordinates": [
+        191,
+        0
+      ],
+      "description": "Color 3 (16.8%)"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        39,
+        34,
+        33
+      ],
+      "hex": "#272221",
+      "percentage": 10.415140787760418,
+      "coordinates": [
+        558,
+        189
+      ],
+      "description": "Color 4 (10.4%)"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        199,
+        87,
+        59
+      ],
+      "hex": "#c7573b",
+      "percentage": 6.356048583984375,
+      "coordinates": [
+        318,
+        212
+      ],
+      "description": "Color 5 (6.4%)"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\car-flowers.jpg",
+  "timestamp": "2026-01-09T17:51:10.863548",
+  "agent": "simple-ai",
+  "method": "GPT-4o Vision Analysis",
+  "n_colors": 5,
+  "image_size": [
+    768,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        106,
+        124,
+        61
+      ],
+      "hex": "#6A7C3D",
+      "percentage": 50.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "car green"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        140,
+        44,
+        59
+      ],
+      "hex": "#8C2C3B",
+      "percentage": 15.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "flower red"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        242,
+        229,
+        162
+      ],
+      "hex": "#F2E5A2",
+      "percentage": 10.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "yellow leaves"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        45,
+        45,
+        45
+      ],
+      "hex": "#2D2D2D",
+      "percentage": 15.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "asphalt gray"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        170,
+        178,
+        184
+      ],
+      "hex": "#AAB2B8",
+      "percentage": 10.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "window reflection gray"
+    }
+  ]
+}

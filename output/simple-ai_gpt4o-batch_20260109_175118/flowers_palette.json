@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\flowers.jpg",
+  "timestamp": "2026-01-09T17:51:18.641745",
+  "agent": "simple-ai",
+  "method": "GPT-4o Vision Analysis",
+  "n_colors": 5,
+  "image_size": [
+    768,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        255,
+        69,
+        0
+      ],
+      "hex": "#FF4500",
+      "percentage": 20.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "orange flowers"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        135,
+        206,
+        235
+      ],
+      "hex": "#87CEEB",
+      "percentage": 25.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "light blue flowers"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        47,
+        79,
+        79
+      ],
+      "hex": "#2F4F4F",
+      "percentage": 40.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "dark background"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "hex": "#FFFFFF",
+      "percentage": 10.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "white paper"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        85,
+        107,
+        47
+      ],
+      "hex": "#556B2F",
+      "percentage": 5.0,
+      "coordinates": [
+        384,
+        512
+      ],
+      "description": "green stems"
+    }
+  ]
+}

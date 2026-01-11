@@ -1,0 +1,88 @@
+{
+  "source_image": "images\\red-car.jpg",
+  "timestamp": "2026-01-09T17:51:27.273428",
+  "agent": "simple-ai",
+  "method": "GPT-4o Vision Analysis",
+  "n_colors": 5,
+  "image_size": [
+    682,
+    1024
+  ],
+  "colors": [
+    {
+      "index": 1,
+      "rgb": [
+        46,
+        75,
+        46
+      ],
+      "hex": "#2E4B2E",
+      "percentage": 40.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "forest green"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        194,
+        35,
+        35
+      ],
+      "hex": "#C22323",
+      "percentage": 20.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "car red"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        90,
+        90,
+        90
+      ],
+      "hex": "#5A5A5A",
+      "percentage": 15.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "road gray"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        138,
+        138,
+        138
+      ],
+      "hex": "#8A8A8A",
+      "percentage": 15.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "gravel gray"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        163,
+        179,
+        163
+      ],
+      "hex": "#A3B3A3",
+      "percentage": 10.0,
+      "coordinates": [
+        341,
+        512
+      ],
+      "description": "light foliage green"
+    }
+  ]
+}
